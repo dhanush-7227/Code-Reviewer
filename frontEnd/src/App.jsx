@@ -44,7 +44,7 @@ function App() {
             type="file"
             accept=".js, .py, .css, .cpp, .cs, .ts, .html, .json, .java"
             onChange={handleFileUpload}
-            className="mb-4 text-sm text-gray-400 cursor-pointer bg-gray-700 p-2 rounded-lg"
+            className="mb-4 text-sm text-gray-400 cursor-pointer bg-gray-700 p-2 rounded-lg hover:bg-gray-900 hover:scale=110"
           />
           {/*Code Editor*/}
 
