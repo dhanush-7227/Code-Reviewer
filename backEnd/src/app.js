@@ -2,7 +2,7 @@ const express = require('express');
 const aiRoutes = require('./routes/ai.routes');
 const app = express()
 const cors = require('cors')
-app.use(cors())
+app.use(cors({ origin: "https://code-reviewer-9e7z.onrender.com/" }))
 app.use(express.json())
 
 
